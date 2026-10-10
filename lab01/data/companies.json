@@ -1,0 +1,602 @@
+[
+  {
+    "company_id": "C000001",
+    "name": "临港精工001有限公司",
+    "industry": "汽车零部件",
+    "zone": "智造一区",
+    "employee_count": 88,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000001"
+  },
+  {
+    "company_id": "C000002",
+    "name": "临港装备002有限公司",
+    "industry": "精密电子",
+    "zone": "智造二区",
+    "employee_count": 695,
+    "device_count": 26,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000002"
+  },
+  {
+    "company_id": "C000003",
+    "name": "临港动力003有限公司",
+    "industry": "精密电子",
+    "zone": "智造一区",
+    "employee_count": 84,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000003"
+  },
+  {
+    "company_id": "C000004",
+    "name": "临港机电004有限公司",
+    "industry": "精密电子",
+    "zone": "能源中心",
+    "employee_count": 89,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000004"
+  },
+  {
+    "company_id": "C000005",
+    "name": "临港能源005有限公司",
+    "industry": "智能制造",
+    "zone": "能源中心",
+    "employee_count": 417,
+    "device_count": 18,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000005"
+  },
+  {
+    "company_id": "C000006",
+    "name": "临港新材006有限公司",
+    "industry": "新能源",
+    "zone": "能源中心",
+    "employee_count": 119,
+    "device_count": 7,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000006"
+  },
+  {
+    "company_id": "C000007",
+    "name": "临港科技007有限公司",
+    "industry": "新能源",
+    "zone": "能源中心",
+    "employee_count": 147,
+    "device_count": 9,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000007"
+  },
+  {
+    "company_id": "C000008",
+    "name": "临港智造008有限公司",
+    "industry": "工业材料",
+    "zone": "智造一区",
+    "employee_count": 932,
+    "device_count": 32,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000008"
+  },
+  {
+    "company_id": "C000009",
+    "name": "临港精工009有限公司",
+    "industry": "精密电子",
+    "zone": "智造一区",
+    "employee_count": 153,
+    "device_count": 9,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000009"
+  },
+  {
+    "company_id": "C000010",
+    "name": "临港装备010有限公司",
+    "industry": "冷链物流",
+    "zone": "研发孵化区",
+    "employee_count": 1548,
+    "device_count": 47,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000010"
+  },
+  {
+    "company_id": "C000011",
+    "name": "临港动力011有限公司",
+    "industry": "智能制造",
+    "zone": "仓储物流区",
+    "employee_count": 101,
+    "device_count": 7,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000011"
+  },
+  {
+    "company_id": "C000012",
+    "name": "临港机电012有限公司",
+    "industry": "智能制造",
+    "zone": "仓储物流区",
+    "employee_count": 137,
+    "device_count": 8,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000012"
+  },
+  {
+    "company_id": "C000013",
+    "name": "临港能源013有限公司",
+    "industry": "汽车零部件",
+    "zone": "能源中心",
+    "employee_count": 619,
+    "device_count": 24,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000013"
+  },
+  {
+    "company_id": "C000014",
+    "name": "临港新材014有限公司",
+    "industry": "汽车零部件",
+    "zone": "智造二区",
+    "employee_count": 153,
+    "device_count": 9,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000014"
+  },
+  {
+    "company_id": "C000015",
+    "name": "临港科技015有限公司",
+    "industry": "工业材料",
+    "zone": "综合配套区",
+    "employee_count": 48,
+    "device_count": 4,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000015"
+  },
+  {
+    "company_id": "C000016",
+    "name": "临港智造016有限公司",
+    "industry": "冷链物流",
+    "zone": "综合配套区",
+    "employee_count": 74,
+    "device_count": 5,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000016"
+  },
+  {
+    "company_id": "C000017",
+    "name": "临港精工017有限公司",
+    "industry": "新能源",
+    "zone": "研发孵化区",
+    "employee_count": 176,
+    "device_count": 10,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000017"
+  },
+  {
+    "company_id": "C000018",
+    "name": "临港装备018有限公司",
+    "industry": "新能源",
+    "zone": "智造一区",
+    "employee_count": 503,
+    "device_count": 21,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000018"
+  },
+  {
+    "company_id": "C000019",
+    "name": "临港动力019有限公司",
+    "industry": "工业材料",
+    "zone": "能源中心",
+    "employee_count": 165,
+    "device_count": 9,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000019"
+  },
+  {
+    "company_id": "C000020",
+    "name": "临港机电020有限公司",
+    "industry": "工业材料",
+    "zone": "综合配套区",
+    "employee_count": 204,
+    "device_count": 11,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000020"
+  },
+  {
+    "company_id": "C000021",
+    "name": "临港能源021有限公司",
+    "industry": "工业材料",
+    "zone": "研发孵化区",
+    "employee_count": 82,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000021"
+  },
+  {
+    "company_id": "C000022",
+    "name": "临港新材022有限公司",
+    "industry": "冷链物流",
+    "zone": "仓储物流区",
+    "employee_count": 621,
+    "device_count": 24,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000022"
+  },
+  {
+    "company_id": "C000023",
+    "name": "临港科技023有限公司",
+    "industry": "新能源",
+    "zone": "仓储物流区",
+    "employee_count": 485,
+    "device_count": 20,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000023"
+  },
+  {
+    "company_id": "C000024",
+    "name": "临港智造024有限公司",
+    "industry": "新能源",
+    "zone": "仓储物流区",
+    "employee_count": 122,
+    "device_count": 7,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000024"
+  },
+  {
+    "company_id": "C000025",
+    "name": "临港精工025有限公司",
+    "industry": "工业材料",
+    "zone": "能源中心",
+    "employee_count": 112,
+    "device_count": 7,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000025"
+  },
+  {
+    "company_id": "C000026",
+    "name": "临港装备026有限公司",
+    "industry": "汽车零部件",
+    "zone": "研发孵化区",
+    "employee_count": 509,
+    "device_count": 21,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000026"
+  },
+  {
+    "company_id": "C000027",
+    "name": "临港动力027有限公司",
+    "industry": "精密电子",
+    "zone": "智造一区",
+    "employee_count": 493,
+    "device_count": 20,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000027"
+  },
+  {
+    "company_id": "C000028",
+    "name": "临港机电028有限公司",
+    "industry": "冷链物流",
+    "zone": "仓储物流区",
+    "employee_count": 238,
+    "device_count": 12,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000028"
+  },
+  {
+    "company_id": "C000029",
+    "name": "临港能源029有限公司",
+    "industry": "新能源",
+    "zone": "能源中心",
+    "employee_count": 130,
+    "device_count": 8,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000029"
+  },
+  {
+    "company_id": "C000030",
+    "name": "临港新材030有限公司",
+    "industry": "新能源",
+    "zone": "智造二区",
+    "employee_count": 127,
+    "device_count": 8,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000030"
+  },
+  {
+    "company_id": "C000031",
+    "name": "临港科技031有限公司",
+    "industry": "工业材料",
+    "zone": "能源中心",
+    "employee_count": 460,
+    "device_count": 19,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000031"
+  },
+  {
+    "company_id": "C000032",
+    "name": "临港智造032有限公司",
+    "industry": "精密电子",
+    "zone": "智造二区",
+    "employee_count": 87,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000032"
+  },
+  {
+    "company_id": "C000033",
+    "name": "临港精工033有限公司",
+    "industry": "工业材料",
+    "zone": "综合配套区",
+    "employee_count": 208,
+    "device_count": 11,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000033"
+  },
+  {
+    "company_id": "C000034",
+    "name": "临港装备034有限公司",
+    "industry": "精密电子",
+    "zone": "综合配套区",
+    "employee_count": 129,
+    "device_count": 8,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000034"
+  },
+  {
+    "company_id": "C000035",
+    "name": "临港动力035有限公司",
+    "industry": "智能制造",
+    "zone": "能源中心",
+    "employee_count": 944,
+    "device_count": 33,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000035"
+  },
+  {
+    "company_id": "C000036",
+    "name": "临港机电036有限公司",
+    "industry": "智能制造",
+    "zone": "仓储物流区",
+    "employee_count": 171,
+    "device_count": 10,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000036"
+  },
+  {
+    "company_id": "C000037",
+    "name": "临港能源037有限公司",
+    "industry": "汽车零部件",
+    "zone": "智造二区",
+    "employee_count": 453,
+    "device_count": 19,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000037"
+  },
+  {
+    "company_id": "C000038",
+    "name": "临港新材038有限公司",
+    "industry": "汽车零部件",
+    "zone": "智造一区",
+    "employee_count": 567,
+    "device_count": 23,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000038"
+  },
+  {
+    "company_id": "C000039",
+    "name": "临港科技039有限公司",
+    "industry": "冷链物流",
+    "zone": "智造一区",
+    "employee_count": 415,
+    "device_count": 18,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000039"
+  },
+  {
+    "company_id": "C000040",
+    "name": "临港智造040有限公司",
+    "industry": "精密电子",
+    "zone": "仓储物流区",
+    "employee_count": 75,
+    "device_count": 5,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000040"
+  },
+  {
+    "company_id": "C000041",
+    "name": "临港精工041有限公司",
+    "industry": "新能源",
+    "zone": "研发孵化区",
+    "employee_count": 1278,
+    "device_count": 41,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000041"
+  },
+  {
+    "company_id": "C000042",
+    "name": "临港装备042有限公司",
+    "industry": "汽车零部件",
+    "zone": "能源中心",
+    "employee_count": 164,
+    "device_count": 9,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000042"
+  },
+  {
+    "company_id": "C000043",
+    "name": "临港动力043有限公司",
+    "industry": "新能源",
+    "zone": "智造二区",
+    "employee_count": 98,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000043"
+  },
+  {
+    "company_id": "C000044",
+    "name": "临港机电044有限公司",
+    "industry": "汽车零部件",
+    "zone": "智造二区",
+    "employee_count": 305,
+    "device_count": 14,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000044"
+  },
+  {
+    "company_id": "C000045",
+    "name": "临港能源045有限公司",
+    "industry": "冷链物流",
+    "zone": "综合配套区",
+    "employee_count": 78,
+    "device_count": 5,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000045"
+  },
+  {
+    "company_id": "C000046",
+    "name": "临港新材046有限公司",
+    "industry": "智能制造",
+    "zone": "综合配套区",
+    "employee_count": 90,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000046"
+  },
+  {
+    "company_id": "C000047",
+    "name": "临港科技047有限公司",
+    "industry": "智能制造",
+    "zone": "研发孵化区",
+    "employee_count": 145,
+    "device_count": 8,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000047"
+  },
+  {
+    "company_id": "C000048",
+    "name": "临港智造048有限公司",
+    "industry": "汽车零部件",
+    "zone": "仓储物流区",
+    "employee_count": 171,
+    "device_count": 10,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000048"
+  },
+  {
+    "company_id": "C000049",
+    "name": "临港精工049有限公司",
+    "industry": "汽车零部件",
+    "zone": "综合配套区",
+    "employee_count": 1465,
+    "device_count": 45,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000049"
+  },
+  {
+    "company_id": "C000050",
+    "name": "临港装备050有限公司",
+    "industry": "汽车零部件",
+    "zone": "综合配套区",
+    "employee_count": 430,
+    "device_count": 18,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000050"
+  },
+  {
+    "company_id": "C000051",
+    "name": "临港动力051有限公司",
+    "industry": "冷链物流",
+    "zone": "智造一区",
+    "employee_count": 461,
+    "device_count": 19,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000051"
+  },
+  {
+    "company_id": "C000052",
+    "name": "临港机电052有限公司",
+    "industry": "智能制造",
+    "zone": "研发孵化区",
+    "employee_count": 71,
+    "device_count": 5,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000052"
+  },
+  {
+    "company_id": "C000053",
+    "name": "临港能源053有限公司",
+    "industry": "智能制造",
+    "zone": "智造二区",
+    "employee_count": 113,
+    "device_count": 7,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000053"
+  },
+  {
+    "company_id": "C000054",
+    "name": "临港新材054有限公司",
+    "industry": "新能源",
+    "zone": "智造二区",
+    "employee_count": 396,
+    "device_count": 17,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000054"
+  },
+  {
+    "company_id": "C000055",
+    "name": "临港科技055有限公司",
+    "industry": "汽车零部件",
+    "zone": "智造一区",
+    "employee_count": 117,
+    "device_count": 7,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000055"
+  },
+  {
+    "company_id": "C000056",
+    "name": "临港智造056有限公司",
+    "industry": "汽车零部件",
+    "zone": "综合配套区",
+    "employee_count": 92,
+    "device_count": 6,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000056"
+  },
+  {
+    "company_id": "C000057",
+    "name": "临港精工057有限公司",
+    "industry": "冷链物流",
+    "zone": "研发孵化区",
+    "employee_count": 649,
+    "device_count": 25,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000057"
+  },
+  {
+    "company_id": "C000058",
+    "name": "临港装备058有限公司",
+    "industry": "精密电子",
+    "zone": "能源中心",
+    "employee_count": 152,
+    "device_count": 9,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000058"
+  },
+  {
+    "company_id": "C000059",
+    "name": "临港动力059有限公司",
+    "industry": "新能源",
+    "zone": "仓储物流区",
+    "employee_count": 139,
+    "device_count": 8,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000059"
+  },
+  {
+    "company_id": "C000060",
+    "name": "临港机电060有限公司",
+    "industry": "汽车零部件",
+    "zone": "智造一区",
+    "employee_count": 102,
+    "device_count": 7,
+    "status": "运营中",
+    "detail_url": "https://115.159.159.82/companies/C000060"
+  }
+]
