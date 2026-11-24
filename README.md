@@ -10,6 +10,7 @@
 |---|---|---|
 | Lab 1 | 静态页面与 API 数据采集 | [`lab01/`](lab01/) |
 | Lab 2 | 房源网页采集与 MySQL 入库存储 | [`lab02/`](lab02/) |
+| Lab 3 | Scrapy 框架采集与翻页（quotes.toscrape.com） | [`lab_scrapy/`](lab_scrapy/) |
 
 ## Lab 1 提交内容
 
@@ -67,11 +68,51 @@ lab02/
 - 逐字段比对数据库与 CSV：不一致 **0** 处；独立重跑新增 **0** 条
 - 防重复两层：Python 侧 `set` 去重 + 数据库侧 `uniq_houseinfo` 联合唯一索引（8 个业务字段，`Non_unique=0`）
 
+## Lab 3 提交内容
+
+```text
+lab_scrapy/
+├── scrapydemo/                    Scrapy 项目源代码
+│   ├── scrapy.cfg
+│   └── scrapydemo/
+│       ├── items.py               Item 定义（content / author / tags）
+│       ├── settings.py            关键配置（ROBOTSTXT_OBEY=False / UA / LOG_LEVEL）
+│       ├── middlewares.py
+│       ├── pipelines.py
+│       └── spiders/
+│           └── quote.py           解析函数 parse() + 翻页逻辑（li.next a）
+├── check.py                       数据校验脚本（条数 / 空值 / CSV 导出）
+├── REPORT.md                      实验报告
+├── data/
+│   ├── quotes.json                100 条名言（Scrapy 原生 JSON 输出）
+│   └── quotes.csv                 100 条名言（UTF-8，带表头）
+└── images/
+    ├── 01_items_py.png            Item 字段定义（含行号）
+    ├── 02_settings_py.png         关键配置项（含行号）
+    ├── 03_quote_py.png            解析函数与翻页代码（含行号）
+    ├── 04_terminal_create.png     项目创建与 spider 生成过程
+    ├── 05_terminal_run.png        爬取运行日志与统计指标
+    ├── 06_validation.png          数据校验输出
+    └── 07_pagination.png          翻页元素证据（第 1 页 vs 第 10 页）
+```
+
+### Lab 3 关键结果
+
+- 数据来源：`https://quotes.toscrape.com/`（状态码 200，每页 10 条，共 10 页）
+- **域名说明**：任务原写的 `quotes.toscrap.com` 已被抢注商占用（302 → hugedomains，403），
+  改用 Scrapy 官方练习站 `quotes.toscrape.com`，页面结构与数据量与原题完全一致
+- 翻页机制：`response.css("li.next a::attr(href)")` 取下一页地址 →
+  `yield response.follow(next_page, callback=self.parse)` 递归；末页无 `li.next` 故自动终止
+- 抓取结果：10 次请求 / 10 个响应 / **100 条 item** / 50 位作者 / 耗时 10.93 秒
+- 队列自检：`scheduler/enqueued == dequeued == request_count == response_received_count == 10`
+- 数据完整性：`content` / `author` 空值 **0** 条，CSV 导出 100 行
+
 ## 实验平台
 
 - 平台：SmartPark DataLab（`https://115.159.159.82`）
 - 环境：课程实验环境 Docker 容器 + JupyterLab
 - 采集方式：`requests`（JSON API 分页）+ `BeautifulSoup`（静态 HTML 解析）
+- 爬虫框架：Scrapy 2.19.0 / Python 3.12.3（课程容器内）
 - 存储：MySQL 8.4.11（课程容器 `mysql:3306`，库 `smartpark_lab`）
 
 ## 说明
